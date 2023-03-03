@@ -1,0 +1,22 @@
+.header {
+  margin-bottom: 1rem;
+  background-color: #fff !important;
+  box-shadow: 2px 2px 5px 0px rgba(150,150,150,0.1);
+
+  .logo {
+    float: left;
+    margin-right: 1rem;
+    font-family: 'Teko', sans-serif;
+    font-size: 28px;
+    background: -webkit-linear-gradient(45deg, var(--primaryColor), var(--secondaryColor));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .menu {
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.content {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-items: center;
+  min-height: 95vh !important;
+  height: 100%;
+  padding: 2rem;
+  background: var(--primaryColor);
+  background: radial-gradient(circle, var(--secondaryColor) 0%, var(--primaryColor) 100%);
+
+  .titleText {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-family: 'Teko', sans-serif;
+    font-size: 46px;
+    color: #fff;
+  }
+
+  .loginCard {
+    position: relative;
+    max-width: 700px;
+    min-width: 300px;
+    padding: 2rem;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: #fff;
+    box-shadow: 2px 2px 5px 1px rgba(50,50,50,0.5);
+
+    .loginCardTitle {
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+  }
+}
